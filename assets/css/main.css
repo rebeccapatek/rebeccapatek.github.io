@@ -1705,7 +1705,7 @@ img.svg{
       width: 100%; }
       .features article {
         margin: 0 0 3em 0;
-        width: 100%; }
+         }
         .features article:nth-child(2n - 1) {
           margin-right: 0; }
         .features article:nth-child(2n) {
@@ -1724,7 +1724,7 @@ img.svg{
             height: 6em;
             margin: -3em 0 0 -3em;
             width: 6em; } }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 580px) {
     .features article {
       -moz-flex-direction: column;
       -webkit-flex-direction: column;
@@ -1844,10 +1844,10 @@ img.svg{
         .posts article:nth-last-child(3) {
           margin-bottom: 4.5em; } }
   
-          @media screen and (max-width: 480px) {
+          @media screen and (max-width: 585px) {
 img.svg{
       max-width: 20px;
-      margin-top: 10px;
+      margin-top: 50px;
     }
     .posts {
       margin: 0 0 2em 0;
@@ -1906,39 +1906,43 @@ p.description {
     margin-right: 46.6667px;
   }
 }
-img.shirt{
-  max-width: 350px;
-
-}
-img.boombox {
-  position: absolute;
-  align-content: center;
-  top: -110px;
-  left: 93px;
-  max-width: 160px;
+/* img.shirt{
+  max-width: 300px;
   
-}
-@media screen and (max-width: 736px) {
-  img.shirt{
-    margin-left: 56.67px;
 
-  }
+} */
+
+/* @media screen and (max-width: 650px) {
+  
   img.boombox{
     margin-left: 56.67px;
 
   }
+} */
+@media screen and (max-width: 555px) {
+  img.shirt{
+    
+    
+    margin-left: 126.67px;
+    position:relative;
+    max-width: 350px;
+
+  }
+ 
 }
 @media screen and (max-width: 480px) {
   img.shirt{
-    margin-left: 56.67px;
-    padding-top: -2em;
+    
+    
+    max-height: 450px;
+    position:relative;
+    max-width: 250px;
+    margin-right: 156.67;
 
   }
-  img.boombox{
-    margin-left: 56.67px;
-
-  }
+ 
 }
+
 
 /* Wrapper */
 #wrapper {
@@ -2380,3 +2384,4 @@ img.boombox {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+ 
